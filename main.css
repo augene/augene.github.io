@@ -1,0 +1,23 @@
+body {
+    font-family: "Dosis";
+    background-color: rgb(229, 237, 229);
+    color: black;
+}
+
+hr {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+::-moz-selection {
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+.links {
+    color: black;
+}
