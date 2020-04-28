@@ -1,23 +1,23 @@
 body {
-    font-family: "Dosis";
-    background-color: rgb(229, 237, 229);
+    font-size: 20px;
+    color: black;
+    font-family: "Roboto Slab", Roboto, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a:link {
     color: black;
 }
 
-hr {
-    border: 2px solid rgb(0, 0, 0);
-}
-
-::-moz-selection {
-  color: white;
-  background: black;
-}
-
-::selection {
-  color: white;
-  background: black;
-}
-
-.links {
+a:visited {
     color: black;
+}
+
+a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+a:active {
+    color: lightgray;
+    text-decoration: underline;
 }
