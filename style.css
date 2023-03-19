@@ -1,0 +1,13 @@
+p {
+    font-family: 'Inter';
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    p { color: white; }
+}
+
+.logo {
+    width: 390px;
+    height: 50px;
+}
